@@ -9,7 +9,7 @@
 | 平台 | 文件 | 说明 |
 |------|------|------|
 | 🪟 Windows | [Voxpen_Setup_v1.0.0.zip](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/v1.0.0/Voxpen_Setup_v1.0.0.zip) | 解压后运行 `Voxpen_Setup.exe` |
-| 🍎 macOS（Apple Silicon）| [Voxpen_v1.0.0_macOS_arm64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/v1.0.0/Voxpen-1.0.0.dmg) | 挂载后运行安装脚本 |
+| 🍎 macOS（Apple Silicon）| [Voxpen_v1.0.0_macOS_arm64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/v1.0.0/Voxpen_v1.0.0_macOS_arm64.dmg) | 挂载后运行安装脚本 |
 
 > **找不到下载按钮？** 直接点击上方表格中的文件名即可下载。
 
