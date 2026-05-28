@@ -6,8 +6,8 @@
 
 | 平台 | 版本 |
 |------|------|
-| 🍎 macOS（Apple Silicon M 系列）| v1.0.1 |
-| 🍎 macOS（Intel x86_64）| v1.0.1 |
+| 🍎 macOS（Apple Silicon M 系列）| v1.0.2 |
+| 🍎 macOS（Intel x86_64）| v1.0.2 |
 | 🪟 Windows CPU 版 | v1.0.1 |
 | 🪟 Windows GPU 版 | v1.0.0 |
 
@@ -17,8 +17,8 @@
 |------|------|------|
 | 🪟 Windows CPU 版 | [Voxpen_Setup_v1.0.1.zip](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/windows-v1.0.1/Voxpen_Setup_v1.0.1.zip) | 解压后运行 `Voxpen_Setup.exe` |
 | 🪟 Windows GPU 版 | [Voxpen_GPU_Setup_v1.0.0.zip](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/windows-v1.0.1/Voxpen_GPU_Setup_v1.0.0.zip) | 需要 NVIDIA GPU，解压后运行 `Voxpen_GPU_Setup.exe` |
-| 🍎 macOS Apple Silicon | [Voxpen_v1.0.1_macOS_arm64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/macos-v1.0.1/Voxpen_v1.0.1_macOS_arm64.dmg) | M1/M2/M3/M4 芯片 |
-| 🍎 macOS Intel | [Voxpen_v1.0.1_macOS_x86_64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/macos-v1.0.1/Voxpen_v1.0.1_macOS_x86_64.dmg) | Intel 芯片 |
+| 🍎 macOS Apple Silicon | [Voxpen_v1.0.2_macOS_arm64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/macos-v1.0.2/Voxpen_v1.0.2_macOS_arm64.dmg) | M1/M2/M3/M4 芯片 |
+| 🍎 macOS Intel | [Voxpen_v1.0.2_macOS_x86_64.dmg](https://github.com/luhuaijia27/Voxpen-Releases/releases/download/macos-v1.0.2/Voxpen_v1.0.2_macOS_x86_64.dmg) | Intel 芯片 |
 
 > **找不到下载按钮？** 直接点击上方表格中的文件名即可下载。
 
@@ -34,13 +34,13 @@
 1. 根据芯片下载对应版本（不确定请点击左上角苹果菜单 → 关于本机查看）
    - **Apple Silicon（M1/M2/M3/M4）**：下载 `arm64` 版本
    - **Intel**：下载 `x86_64` 版本
-2. 双击挂载 DMG，运行其中的安装脚本
-3. 首次启动需在系统设置中授权：辅助功能、输入监控、麦克风
-
-如提示「无法打开」，在终端执行：
-```
-xattr -cr /Applications/Voxpen.app
-```
+2. 双击挂载 DMG，将 Voxpen.app 拖入 Applications 文件夹
+3. 打开「终端」，粘贴以下命令并回车（仅需一次）：
+   ```
+   xattr -cr /Applications/Voxpen.app
+   ```
+4. 完成后即可从启动台正常启动 Voxpen
+5. 首次启动需在系统设置中授权：辅助功能、输入监控、麦克风
 
 ## 官网
 
